@@ -1,0 +1,3 @@
+cd $HOME/Aria-2.9.0/pythonExamples
+python2  simple.py
+

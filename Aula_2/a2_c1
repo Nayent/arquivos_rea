@@ -1,0 +1,15 @@
+cd $HOME
+cp -r  $HOME/projetomobilesim-code/Aria-2.9.0/ .
+cd Aria-2.9.0
+make
+Definir as variáveis de ambiente em $HOME/.bashrc:
+export LD_LIBRARY_PATH=$LD_LIBRAY_PATH:/usr/local/Aria/lib
+export ARIA=/usr/local/Aria
+export PYTHONPATH=/usr/local/Aria/python
+export PATH=$PATH:/usr/local/Aria/bin
+export PYTHON_INCLUDE=/usr/include/python2.7
+source  $HOME/.bashrc
+cd /usr/local
+rm -r Aria
+ln -s $HOME/Aria-2.9.0   Aria
+

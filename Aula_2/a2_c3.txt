@@ -1,0 +1,6 @@
+cd $HOME/Aria-2.9.0
+apt-get install python2.7
+apt-get install python2.7-dev
+make python
+$HOME/Aria-2.9.0/pythonExamples
+
