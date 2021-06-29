@@ -1,0 +1,12 @@
+Código 1
+
+for x in range(0,6,1):
+	print(x)
+
+---
+Código 2
+
+contador = 0
+while(contador < 6):
+	print(contador)
+	contador = contador + 1

@@ -1,3 +1,5 @@
+Código 1
+
 cd $HOME
 cp -r  $HOME/projetomobilesim-code/Aria-2.9.0/ .
 cd Aria-2.9.0
@@ -13,3 +15,34 @@ cd /usr/local
 rm -r Aria
 ln -s $HOME/Aria-2.9.0   Aria
 
+---
+Código 2
+
+sudo -s
+cd $HOME
+cp -r  $HOME/projetomobilesim-code/MobileSim-src-0.7.3/ .
+cd MobileSim-src-0.73
+apt-get update
+apt-get install libgtk2.0-dev automake autoconf libtool make g++
+make
+make install
+
+---
+Código 3
+
+cd $HOME/Aria-2.9.0
+apt-get install python2.7
+apt-get install python2.7-dev
+make python
+$HOME/Aria-2.9.0/pythonExamples
+
+---
+Código 4
+
+cd $HOME/Aria-2.9.0/pythonExamples
+python2  simple.py
+
+---
+Código 5
+
+sudo snap install --classic code

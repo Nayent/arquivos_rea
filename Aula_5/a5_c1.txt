@@ -1,0 +1,17 @@
+Código 1
+
+def soma(a,b):
+	valor_soma = a + b
+	return valor_soma
+
+---
+Código 2
+
+valor_da_soma = soma(2,5)
+
+---
+Código 3
+
+def soma(a,b):
+	valor_soma = a + b
+	print(valor_soma)

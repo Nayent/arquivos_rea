@@ -1,0 +1,52 @@
+Código 1
+
+b = a
+
+---
+Código 2
+
+a = 10
+print(a)
+print('\n') #Para dar um salto de linha
+b = 2*a #Aqui estamos multiplicando por “2” - verificar na Tabela 1
+print(b)
+
+---
+Código 3
+
+a = 2
+print(type(a))
+
+---
+Código 4
+
+a = 2.2
+print(type(a))
+
+---
+Código 5
+
+a = True
+print(type(a))
+
+---
+Código 6
+
+a = 'Texto python'
+print(type(a))
+
+---
+Código 7
+
+idade = input('Digite sua idade: ')
+
+---
+Código 8
+
+print('Sua idade é: ', idade)
+
+---
+Código 9
+
+print('Sua idade é: ', idade)
+idade = input('Digite sua idade: ')

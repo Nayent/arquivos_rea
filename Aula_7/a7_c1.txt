@@ -1,0 +1,82 @@
+Código 1
+
+lista_1 = [10, 14, 20, 9, 16, 22]
+
+---
+Código 2
+
+lista_1 = [10, 14, 20, 9, 16, 22]
+lista_1[0]
+
+---
+Código 3
+
+lista_1 = [10, 14, 20, 9, 16, 22]
+lista_1[3]
+
+---
+Código 4
+
+lista_1 = [10, 10.5, 'texto', True]
+type(lista_1[0])
+type(lista_1[1])
+type(lista_1[2])
+type(lista_1[3])
+
+---
+Código 5
+
+lista_1 = [1, 2, 3]
+lista_1.append(4)
+
+---
+Código 6
+
+lista_1 = [1, 2, 3]
+lista_1.insert(0, 4)
+
+---
+Código 7
+
+lista_1 = [1, 2, 3]
+lista_1[0] = 5
+
+---
+Código 8
+
+lista_1 = [1, 2, 3]
+lista_1.pop()
+lista_1.pop(0)
+
+---
+Código 9
+
+numeros = [1, 2, 3, 4, 5]
+numeros[0:2]
+
+---
+Código 10
+
+tupla_1 = (1, 2, 3)
+type(tupla_1)
+
+---
+Código 11
+
+dict = {'chave1':'valor1', 'chave2':'valor2'}
+type(dict)
+
+---
+Código 12
+
+filme = {
+	'nome': 'Toy Story 3',
+	'ano': 2010,
+	'duracao (minutos)': '108',
+	'categoria': 'Infantil/Comédia',
+	'nota': '91%'
+}
+
+filme['nome']
+
+

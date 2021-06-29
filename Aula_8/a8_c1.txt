@@ -1,0 +1,82 @@
+Código 1
+
+nome = 'robotica'
+
+---
+Código 2
+
+nome = 'robotica'
+nome[0]
+
+---
+Código 3
+
+nome = 'robotica'
+nome[0:4]
+
+---
+Código 4
+
+name = 'robotica'
+for i in name:
+	print(i)
+
+---
+Código 5
+
+name = 'robotica'
+len(name)
+
+---
+Código 6
+
+name = 'robotica'
+nome_1 = nome.replace('robotica','robs')
+print(nome_1)
+
+---
+Código 7
+
+name = 'String 1' + 'String 2'
+print(name)
+
+---
+Código 8
+
+name = 'robotica'
+print(nome.upper())
+
+---
+Código 9
+
+name = 'ROBOTICA'
+print(nome.lower())
+
+---
+Código 10
+
+texto = 'python aplicado na robotica'
+texto.find('python')
+texto.find('java')
+
+---
+Código 11
+
+texto = 'python aplicado na robotica'
+lista_texto = texto.split(' ')
+print(lista_texto)
+
+---
+Código 12
+
+texto = 'Python na Robótica'
+print(nome)
+
+---
+Código 13
+
+# coding: utf-8
+
+texto = 'Python na Robótica'
+print(nome)
+

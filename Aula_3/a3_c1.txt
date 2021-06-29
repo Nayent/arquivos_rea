@@ -1,0 +1,60 @@
+Código 1
+
+print('Hello World')
+
+---
+Código 2
+
+print('5+5')
+
+---
+Código 3
+
+print('4')
+
+---
+Código 4
+
+print(5+5)
+
+---
+Código 5
+
+print(4)
+
+---
+Código 6
+
+a = 10
+print(a)
+
+---
+Código 7
+
+a = 10
+print(a)
+
+---
+Código 8
+
+print('5'+'5')
+
+print('5','5')
+
+print('Hello'+'World')
+
+print('Hello'+'World')
+
+---
+Código 9
+
+print('Minha idade é ', 50)
+
+--- 
+Código 10
+
+print ("Posição do robô utilizando métodos de acesso do ArRobot: (", robot.getX(), ",", robot.getY(), ",", robot.getTh(), ")")
+pose = robot.getPose()
+print ("Posição do robô por impressão do objeto ArPose:", pose)
+print ("Posição do robô usando ArPose: (", pose.x, ",", pose.y, ",", pose.th, ")")
+print ("Enviando comando para avançar 1 metro ...")

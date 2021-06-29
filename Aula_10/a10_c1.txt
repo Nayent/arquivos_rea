@@ -1,0 +1,20 @@
+Código 1
+
+arquivo = open('hello_python.txt', 'w')
+arquivo.write('Hello World\n')
+arquivo.close()
+
+---
+Código 2
+
+arquivo = open('dados.txt', 'w')
+arquivo.write('dado 1\n', 'dado 2\n', 'dado 3\n')
+arquivo.writelines(listas_dados)
+arquivo.close()
+
+---
+Código 3
+
+arquivo = open('dados.txt', 'r)
+dados = arquivo.readlines()
+print(dados)
